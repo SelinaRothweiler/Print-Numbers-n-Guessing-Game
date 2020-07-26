@@ -44,7 +44,7 @@ namespace WhileIterationStatement
         private static void PrintNumbers()
         {
             Console.WriteLine("Print numbers!");
-            Console.Write("Type a numer: ");
+            Console.Write("Type a number: ");
             int result = int.Parse(Console.ReadLine());
             int counter = 1;
             while (counter < result)
@@ -71,7 +71,7 @@ namespace WhileIterationStatement
 
             do
             {
-                Console.WriteLine("Guess a number between 1 and 10: ");
+                Console.WriteLine("Guess a number between 1 and 11: ");
                 string result = Console.ReadLine();
                 guesses++;
 
